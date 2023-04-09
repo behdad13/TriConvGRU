@@ -23,6 +23,14 @@ To execute the model, **clone the repository** and run the command: `!python mai
 
 You can also alter the hyperparameters by running the code: `!python main.py --batch_size 32 --epoch 100 --patience 30 --num_feature 1 --for_hor 3 --n_timesteps 72`. 
 
-In the `main.py` file of your GitHub repository, you have the option to modify the hyper-parameters for tuning. The `hyper` section is where you can make these changes. By using grid search, the program will identify the most suitable candidate for the hidden layers of GRU and CNN, as well as the optimal learning rate.
+To fine-tune the model, you need to define the following hyper-parameters:
+1. `batch_size`: Size of each batch
+2. `epoch`: Number of epochs
+3. `patience`: Patience for early stopping
+4. `num_feature`: Number of input features
+5. `for_hor`: Forecasting horizon
+6. `n_timesteps`: Number of previous timesteps
+
+Also, in the `main.py` file of your GitHub repository, you have the option to modify other hyper-parameters for tuning. The `hyper` section is where you can make these changes. By using grid search, the program will identify the most suitable candidate for the hidden layers of GRU and CNN, as well as the optimal learning rate.
 
 If you use the model or code in this repository, make sure to cite the corresponding paper.
