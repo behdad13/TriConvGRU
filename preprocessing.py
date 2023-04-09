@@ -22,7 +22,7 @@ def prepare_datasets(data, train_size_ratio=0.8, valid_size_ratio=0.2, n_timeste
     train_size = int(len(data) * train_size_ratio)
     valid_size = int(len(data) * valid_size_ratio)
 
-    df_train, df_val = data[:train_size], data[train_size + 1:]
+    df_train, df_val = data[:train_size], data[train_size:]
     
     global scaler
 
