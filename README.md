@@ -34,3 +34,5 @@ To fine-tune the model, you need to define the following hyper-parameters:
 Also, in the `main.py` file of your GitHub repository, you have the option to modify other hyper-parameters for tuning. The `hyper` section is where you can make these changes. By using grid search, the program will identify the most suitable candidate for the hidden layers of GRU and CNN, as well as the optimal learning rate.
 
 If you use the model or code in this repository, make sure to cite the corresponding paper.
+
+Ehsani, Behdad and Pineau, Pierre-Olivier and Charlin, Laurent, Price Forecasting in the Ontario Electricity Market via TriConvGRU Hybrid Model: Univariate vs. Multivariate Frameworks (April 26, 2023). Available at SSRN: https://ssrn.com/abstract=4430405
