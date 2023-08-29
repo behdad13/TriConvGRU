@@ -1,7 +1,7 @@
 # TriConvGRU
-A novel time-series forecasting model applied in Ontario Electricity Market
+A novel time-series forecasting model applied to the Ontario Electricity Market
 
-The proposed model in this GitHub repository is a hybridization of GRU and LSTM, which is applied to the Ontario electricity market. Additionally, the paper includes a comparison of several machine learning and statistical models. The architecture of the proposed model is shown in the follwoing. 
+The proposed model in this GitHub repository is a hybridization of GRU and LSTM that is applied to the Ontario electricity market. Additionally, the paper includes a comparison of several machine learning and statistical models. The architecture of the proposed model is shown in the following:
 
 ![triconvgru (1)](https://user-images.githubusercontent.com/58978680/230785238-65a0d35c-c7b3-4eb6-923c-f4ec7d3b3ae5.png)
 
@@ -17,7 +17,7 @@ The repository's `.py` files comprise the implementation of various functions an
 7. the `utils.py` file contains functions for error metrics calculation and forecast visualization.
 
 
-A sample dataset and test set are included in the repository. 
+A sample dataset and test set are included in the repository. Also, the **main dataset** used for multivariate forecasting is attached to the repo.
 
 To execute the model, **clone the repository** and run the command: `!python main.py`.
 
